@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A1DEF81D02E0D2005C2C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1DEF71D02E0D2005C2C9F /* AppDelegate.swift */; };
+		A6A1DEFA1D02E0D2005C2C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1DEF91D02E0D2005C2C9F /* ViewController.swift */; };
+		A6A1DEFD1D02E0D2005C2C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A1DEFB1D02E0D2005C2C9F /* Main.storyboard */; };
+		A6A1DEFF1D02E0D2005C2C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A1DEFE1D02E0D2005C2C9F /* Assets.xcassets */; };
+		A6A1DF021D02E0D2005C2C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A1DF001D02E0D2005C2C9F /* LaunchScreen.storyboard */; };
+		A6A1DF0D1D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1DF0C1D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.swift */; };
+		A6A1DF181D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1DF171D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A1DF091D02E0D2005C2C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A1DEEC1D02E0D2005C2C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A1DEF31D02E0D2005C2C9F;
+			remoteInfo = JasonPracticeKivaLoan;
+		};
+		A6A1DF141D02E0D2005C2C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6A1DEEC1D02E0D2005C2C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A1DEF31D02E0D2005C2C9F;
+			remoteInfo = JasonPracticeKivaLoan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A1DEF41D02E0D2005C2C9F /* JasonPracticeKivaLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasonPracticeKivaLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A1DEF71D02E0D2005C2C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6A1DEF91D02E0D2005C2C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6A1DEFC1D02E0D2005C2C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6A1DEFE1D02E0D2005C2C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A1DF011D02E0D2005C2C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6A1DF031D02E0D2005C2C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A1DF081D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasonPracticeKivaLoanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A1DF0C1D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasonPracticeKivaLoanTests.swift; sourceTree = "<group>"; };
+		A6A1DF0E1D02E0D2005C2C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6A1DF131D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasonPracticeKivaLoanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A1DF171D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JasonPracticeKivaLoanUITests.swift; sourceTree = "<group>"; };
+		A6A1DF191D02E0D2005C2C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A1DEF11D02E0D2005C2C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A1DF051D02E0D2005C2C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A1DF101D02E0D2005C2C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A1DEEB1D02E0D2005C2C9F = {
+			isa = PBXGroup;
+			children = (
+				A6A1DEF61D02E0D2005C2C9F /* JasonPracticeKivaLoan */,
+				A6A1DF0B1D02E0D2005C2C9F /* JasonPracticeKivaLoanTests */,
+				A6A1DF161D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests */,
+				A6A1DEF51D02E0D2005C2C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A1DEF51D02E0D2005C2C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1DEF41D02E0D2005C2C9F /* JasonPracticeKivaLoan.app */,
+				A6A1DF081D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.xctest */,
+				A6A1DF131D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A1DEF61D02E0D2005C2C9F /* JasonPracticeKivaLoan */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1DEF71D02E0D2005C2C9F /* AppDelegate.swift */,
+				A6A1DEF91D02E0D2005C2C9F /* ViewController.swift */,
+				A6A1DEFB1D02E0D2005C2C9F /* Main.storyboard */,
+				A6A1DEFE1D02E0D2005C2C9F /* Assets.xcassets */,
+				A6A1DF001D02E0D2005C2C9F /* LaunchScreen.storyboard */,
+				A6A1DF031D02E0D2005C2C9F /* Info.plist */,
+			);
+			path = JasonPracticeKivaLoan;
+			sourceTree = "<group>";
+		};
+		A6A1DF0B1D02E0D2005C2C9F /* JasonPracticeKivaLoanTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1DF0C1D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.swift */,
+				A6A1DF0E1D02E0D2005C2C9F /* Info.plist */,
+			);
+			path = JasonPracticeKivaLoanTests;
+			sourceTree = "<group>";
+		};
+		A6A1DF161D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1DF171D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.swift */,
+				A6A1DF191D02E0D2005C2C9F /* Info.plist */,
+			);
+			path = JasonPracticeKivaLoanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A1DEF31D02E0D2005C2C9F /* JasonPracticeKivaLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A1DF1C1D02E0D2005C2C9F /* Build configuration list for PBXNativeTarget "JasonPracticeKivaLoan" */;
+			buildPhases = (
+				A6A1DEF01D02E0D2005C2C9F /* Sources */,
+				A6A1DEF11D02E0D2005C2C9F /* Frameworks */,
+				A6A1DEF21D02E0D2005C2C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JasonPracticeKivaLoan;
+			productName = JasonPracticeKivaLoan;
+			productReference = A6A1DEF41D02E0D2005C2C9F /* JasonPracticeKivaLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6A1DF071D02E0D2005C2C9F /* JasonPracticeKivaLoanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A1DF1F1D02E0D2005C2C9F /* Build configuration list for PBXNativeTarget "JasonPracticeKivaLoanTests" */;
+			buildPhases = (
+				A6A1DF041D02E0D2005C2C9F /* Sources */,
+				A6A1DF051D02E0D2005C2C9F /* Frameworks */,
+				A6A1DF061D02E0D2005C2C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A1DF0A1D02E0D2005C2C9F /* PBXTargetDependency */,
+			);
+			name = JasonPracticeKivaLoanTests;
+			productName = JasonPracticeKivaLoanTests;
+			productReference = A6A1DF081D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6A1DF121D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A1DF221D02E0D2005C2C9F /* Build configuration list for PBXNativeTarget "JasonPracticeKivaLoanUITests" */;
+			buildPhases = (
+				A6A1DF0F1D02E0D2005C2C9F /* Sources */,
+				A6A1DF101D02E0D2005C2C9F /* Frameworks */,
+				A6A1DF111D02E0D2005C2C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A1DF151D02E0D2005C2C9F /* PBXTargetDependency */,
+			);
+			name = JasonPracticeKivaLoanUITests;
+			productName = JasonPracticeKivaLoanUITests;
+			productReference = A6A1DF131D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A1DEEC1D02E0D2005C2C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Amimul Ehasan Shakib";
+				TargetAttributes = {
+					A6A1DEF31D02E0D2005C2C9F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A6A1DF071D02E0D2005C2C9F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A6A1DEF31D02E0D2005C2C9F;
+					};
+					A6A1DF121D02E0D2005C2C9F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A6A1DEF31D02E0D2005C2C9F;
+					};
+				};
+			};
+			buildConfigurationList = A6A1DEEF1D02E0D2005C2C9F /* Build configuration list for PBXProject "JasonPracticeKivaLoan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A1DEEB1D02E0D2005C2C9F;
+			productRefGroup = A6A1DEF51D02E0D2005C2C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A1DEF31D02E0D2005C2C9F /* JasonPracticeKivaLoan */,
+				A6A1DF071D02E0D2005C2C9F /* JasonPracticeKivaLoanTests */,
+				A6A1DF121D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A1DEF21D02E0D2005C2C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A1DF021D02E0D2005C2C9F /* LaunchScreen.storyboard in Resources */,
+				A6A1DEFF1D02E0D2005C2C9F /* Assets.xcassets in Resources */,
+				A6A1DEFD1D02E0D2005C2C9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A1DF061D02E0D2005C2C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A1DF111D02E0D2005C2C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A1DEF01D02E0D2005C2C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A1DEFA1D02E0D2005C2C9F /* ViewController.swift in Sources */,
+				A6A1DEF81D02E0D2005C2C9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A1DF041D02E0D2005C2C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A1DF0D1D02E0D2005C2C9F /* JasonPracticeKivaLoanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A1DF0F1D02E0D2005C2C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A1DF181D02E0D2005C2C9F /* JasonPracticeKivaLoanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6A1DF0A1D02E0D2005C2C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A1DEF31D02E0D2005C2C9F /* JasonPracticeKivaLoan */;
+			targetProxy = A6A1DF091D02E0D2005C2C9F /* PBXContainerItemProxy */;
+		};
+		A6A1DF151D02E0D2005C2C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A1DEF31D02E0D2005C2C9F /* JasonPracticeKivaLoan */;
+			targetProxy = A6A1DF141D02E0D2005C2C9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6A1DEFB1D02E0D2005C2C9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A1DEFC1D02E0D2005C2C9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6A1DF001D02E0D2005C2C9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A1DF011D02E0D2005C2C9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A1DF1A1D02E0D2005C2C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A1DF1B1D02E0D2005C2C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A1DF1D1D02E0D2005C2C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JasonPracticeKivaLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.maeshakib.JasonPracticeKivaLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6A1DF1E1D02E0D2005C2C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JasonPracticeKivaLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.maeshakib.JasonPracticeKivaLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6A1DF201D02E0D2005C2C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JasonPracticeKivaLoanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.maeshakib.JasonPracticeKivaLoanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JasonPracticeKivaLoan.app/JasonPracticeKivaLoan";
+			};
+			name = Debug;
+		};
+		A6A1DF211D02E0D2005C2C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JasonPracticeKivaLoanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.maeshakib.JasonPracticeKivaLoanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JasonPracticeKivaLoan.app/JasonPracticeKivaLoan";
+			};
+			name = Release;
+		};
+		A6A1DF231D02E0D2005C2C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JasonPracticeKivaLoanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.maeshakib.JasonPracticeKivaLoanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JasonPracticeKivaLoan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A6A1DF241D02E0D2005C2C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JasonPracticeKivaLoanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.maeshakib.JasonPracticeKivaLoanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JasonPracticeKivaLoan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A1DEEF1D02E0D2005C2C9F /* Build configuration list for PBXProject "JasonPracticeKivaLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A1DF1A1D02E0D2005C2C9F /* Debug */,
+				A6A1DF1B1D02E0D2005C2C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A1DF1C1D02E0D2005C2C9F /* Build configuration list for PBXNativeTarget "JasonPracticeKivaLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A1DF1D1D02E0D2005C2C9F /* Debug */,
+				A6A1DF1E1D02E0D2005C2C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6A1DF1F1D02E0D2005C2C9F /* Build configuration list for PBXNativeTarget "JasonPracticeKivaLoanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A1DF201D02E0D2005C2C9F /* Debug */,
+				A6A1DF211D02E0D2005C2C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6A1DF221D02E0D2005C2C9F /* Build configuration list for PBXNativeTarget "JasonPracticeKivaLoanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A1DF231D02E0D2005C2C9F /* Debug */,
+				A6A1DF241D02E0D2005C2C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A1DEEC1D02E0D2005C2C9F /* Project object */;
+}
